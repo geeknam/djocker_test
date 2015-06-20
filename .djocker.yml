@@ -1,6 +1,0 @@
-image: python:2.7
-script:
-  - apt-get -y install redis
-  - git clone https://github.com/geeknam/djocker_test.git code
-  - pip install -r code/requirements.txt
-  - python code/test.py
